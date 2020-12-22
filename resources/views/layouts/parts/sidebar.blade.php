@@ -68,6 +68,9 @@
                     class="{{ Request::is("admin/page/terms-and-conditions") ? "active":""}}"><a class="nav-link"
                         href="{{ url("admin/page/terms-and-conditions/edit") }}">Terms and conditions</a></li> @endif
                 @if(Helper::authCheck("page-show")) <li
+                    class="{{ Request::is("admin/page/how-it-works") ? "active":""}}"><a class="nav-link"
+                        href="{{ url("admin/page/how-it-works/edit") }}">How It Works</a></li> @endif
+                @if(Helper::authCheck("page-show")) <li
                     class="{{ Request::is("admin/page/privacy-policy") ? "active":""}}"><a class="nav-link"
                         href="{{ url("admin/page/privacy-policy/edit") }}">Privacy policy</a></li> @endif
                 @if(Helper::authCheck("page-show")) <li
