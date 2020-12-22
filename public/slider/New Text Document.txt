@@ -1,0 +1,17 @@
+<section id="tiny" class="tinyslide" style="height: 500px;">
+    <aside class="slides"> 
+        <figure>
+            <img src="{{Storage::url($item->image)}}" alt="" />
+            <figcaption>
+
+            </figcaption>
+        </figure>
+    </aside>
+</section>
+
+
+    <script src="{{ asset('slider/tinyslide.js') }}"></script>
+    <script>
+        var tiny = $('#tiny').tiny().data('api_tiny');
+
+    </script>

@@ -1,0 +1,67 @@
+#profile-hight {
+    min-height: 500px !important;
+}
+
+a.btn.btn-success.btn-sm {
+    color: white;
+}
+
+#profile-tab2 {
+    color: #cb8e79 !important;
+}
+
+#home-tab2 {
+    color: #cb8e79 !important;
+}
+
+.view-mail {
+    min-height: 200px;
+}
+
+.feather-10 {
+    width: 0px;
+    height: 0px;
+}
+
+.feather-16 {
+    width: 16px;
+    height: 16px;
+}
+
+.feather-24 {
+    width: 24px;
+    height: 24px;
+}
+
+.feather-32 {
+    width: 32px;
+    height: 32px;
+}
+
+/* image upload css end */
+
+::-webkit-file-upload-button {
+    background: #353c48;
+    color: white;
+    padding: 2px 8px;
+    border-radius: 10px !important;
+    border: none;
+    cursor: pointer;
+    border: 1px solid white;
+    margin-bottom: 4px !important;
+    /* font-size: 10px !important; */
+    /* height: 40px;
+    width: 100px; */
+}
+
+::-webkit-file-upload-button:hover {
+    background: red;
+}
+
+.img-thumbnail {
+
+    height: 50px !important;
+}
+.avatar-preview{
+    max-height: 204px;
+}

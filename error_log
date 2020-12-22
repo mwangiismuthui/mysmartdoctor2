@@ -1,0 +1,10 @@
+[10-Sep-2020 04:18:29 UTC] PHP Warning:  require(/home/smartca1/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:18:29 UTC] PHP Fatal error:  require(): Failed opening required '/home/smartca1/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:18:33 UTC] PHP Warning:  require(/home/smartca1/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:18:33 UTC] PHP Fatal error:  require(): Failed opening required '/home/smartca1/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:18:34 UTC] PHP Warning:  require(/home/smartca1/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:18:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/smartca1/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:18:54 UTC] PHP Warning:  require(/home/smartca1/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:18:54 UTC] PHP Fatal error:  require(): Failed opening required '/home/smartca1/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:19:06 UTC] PHP Warning:  require(/home/smartca1/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/smartca1/public_html/index.php on line 24
+[10-Sep-2020 04:19:06 UTC] PHP Fatal error:  require(): Failed opening required '/home/smartca1/public_html/../vendor/autoload.php' (include_path='.:/opt/alt/php74/usr/share/pear') in /home/smartca1/public_html/index.php on line 24

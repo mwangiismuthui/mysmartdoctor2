@@ -1,0 +1,19 @@
+
+
+    <div class="col-4">
+        <div class="form-group {{ $errors->has('%%itemName%%') ? 'has-error' : ''}}">
+            <label for="%%itemName%%" class="control-label">{{ __('%%itemName%%') }}</label><br>
+            <input type='file' name="%%itemName%%" accept=".png, .jpg, .jpeg,.zip,.mp4" onchange="showMyImage(this,'%%itemName%%')"
+                value="{{ isset($%%crudNameSingular%%->%%itemName%%) ? $%%crudNameSingular%%->%%itemName%% : old('image')}}">
+            <input type='text' name="old%%itemName%%" value="{{ isset($%%crudNameSingular%%->%%itemName%%) ? $%%crudNameSingular%%->%%itemName%% : ''}}" hidden>
+            <div class="avatar-upload">
+                <div class="avatar-preview">
+                    <img id="%%itemName%%" class="avatar-preview"
+                        src="{{ isset($%%crudNameSingular%%->%%itemName%%) ? Storage::url($%%crudNameSingular%%->%%itemName%%) : asset('upload.png')}}"
+                        alt="image" />
+                </div>
+            </div>
+            {!! $errors->first('%%itemName%%', '<p class="text-danger">:message</p>') !!}
+            <div class="invalid-feedback"> What's your %%itemName%%?</div>
+        </div>
+    </div>
