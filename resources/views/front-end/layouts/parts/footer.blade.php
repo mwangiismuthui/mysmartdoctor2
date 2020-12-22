@@ -44,6 +44,7 @@
                     <li><a href="{{ url('/about-us') }}">About us</a></li>
                     <li><a href="{{ url('/faq') }}">FAQ</a></li>
                     <li><a href="{{ url('/informed-consent') }}">Informed consent </a></li>
+                    <li><a href="{{ url('/how-it-works') }}">How it Works </a></li>
                     <li><a href="{{ url('/terms-and-conditions') }}">Terms and conditions</a></li>
                     <li><a href="{{ url('/privacy-policy') }}">Privacy</a></li>
 

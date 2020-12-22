@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e4a5886e-2c3b-4c2c-912e-21c964c681fa" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/vendor/sagor110090/permission" beforeDir="false" afterPath="$PROJECT_DIR$/vendor/sagor110090/permission" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/smart.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/smart.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/front-end/layouts/parts/footer.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/front-end/layouts/parts/footer.blade.php" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/node_modules/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,7 +21,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Auth/LoginController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
@@ -27,6 +29,15 @@
               <folding>
                 <element signature="e#45#81#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -44,7 +55,7 @@
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/DoctorController.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="204" selection-end-column="31" />
+              <caret line="203" selection-start-line="203" selection-end-line="204" selection-end-column="31" />
             </state>
           </provider>
         </entry>
@@ -104,10 +115,8 @@
       <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
       <path value="$PROJECT_DIR$/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-foundation" />
-      <path value="$PROJECT_DIR$/vendor/sagor110090/permission" />
       <path value="$PROJECT_DIR$/vendor/composer" />
       <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
-      <path value="$PROJECT_DIR$/vendor/sagor110090/crud-generator" />
       <path value="$PROJECT_DIR$/vendor/filp/whoops" />
       <path value="$PROJECT_DIR$/vendor/intervention/image" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
@@ -205,19 +214,9 @@
       <path value="$PROJECT_DIR$/vendor/nesbot/carbon" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php72" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-intl-normalizer" />
+      <path value="$PROJECT_DIR$/vendor/sagor110090/permission" />
+      <path value="$PROJECT_DIR$/vendor/sagor110090/crud-generator" />
     </include_path>
-  </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/smart.iml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/symfony2.xml" />
-        <option value="$PROJECT_DIR$/.idea/php.xml" />
-      </list>
-    </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="401" />
@@ -271,7 +270,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608628716255</updated>
-      <workItem from="1608628717844" duration="2672000" />
+      <workItem from="1608628717844" duration="3432000" />
     </task>
     <task id="LOCAL-00001" summary="Login solved">
       <created>1608631394987</created>
@@ -280,23 +279,29 @@
       <option name="project" value="LOCAL" />
       <updated>1608631394989</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Sagor">
+      <created>1608631623794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1608631623794</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2672000" />
+    <option name="totallyTimeSpent" value="3432000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1696" height="1036" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="npm" side_tool="true" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16625917" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16625917" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
+      <window_info active="true" anchor="bottom" id="Version Control" visible="true" weight="0.3295325" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -317,7 +322,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Login solved" />
-    <option name="LAST_COMMIT_MESSAGE" value="Login solved" />
+    <MESSAGE value="Sagor" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sagor" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/resources/views/front-end/doctor-login.blade.php">
@@ -337,7 +343,7 @@
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/Admin/DoctorController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="203" lean-forward="true" selection-start-line="203" selection-end-line="204" selection-end-column="31" />
+          <caret line="203" selection-start-line="203" selection-end-line="204" selection-end-column="31" />
         </state>
       </provider>
     </entry>
@@ -362,6 +368,13 @@
           <folding>
             <element signature="e#45#81#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="10" column="19" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
         </state>
       </provider>
     </entry>
