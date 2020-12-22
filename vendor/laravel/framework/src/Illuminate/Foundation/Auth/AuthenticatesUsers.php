@@ -30,7 +30,13 @@ trait AuthenticatesUsers
      */
     public function login(Request $request)
     {
-        $this->validateLogin($request);
+        if(User::where('username',$request->username)->where('active','1')->first()){
+            $this->validateLogin($request);
+        }elseif(User::where('username',$request->username)->first()){
+            return redirect('/sms/verify')->with('error','verify your mobile number');
+        }else{
+            return redirect()->back()->with('error','verify your mobile number');
+        }
 
         // If the class is using the ThrottlesLogins trait, we can automatically throttle
         // the login attempts for this application. We'll key this by the username and
@@ -64,6 +70,7 @@ trait AuthenticatesUsers
      */
     protected function validateLogin(Request $request)
     {
+
         $request->validate([
             $this->username() => 'required|string',
             'password' => 'required|string',
@@ -107,7 +114,7 @@ trait AuthenticatesUsers
         $this->clearLoginAttempts($request);
 
         return $this->authenticated($request, $this->guard()->user())
-                ?: redirect()->intended($this->redirectPath());
+            ?: redirect()->intended($this->redirectPath());
     }
 
     /**
@@ -144,7 +151,7 @@ trait AuthenticatesUsers
      */
     public function username()
     {
-        return 'email';
+        return 'username';
     }
 
     /**

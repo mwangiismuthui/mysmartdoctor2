@@ -13,6 +13,7 @@ use Illuminate\Support\Str;
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
+use telesign\sdk\messaging\MessagingClient;
 use Twilio\Rest\Client;
 
 class DoctorController extends Controller
@@ -192,19 +193,30 @@ class DoctorController extends Controller
     public function smsSend($phone_number, $ujumbe)
     {
 
-        // dd($phone_number);
-        $sid = "AC7d4002d3e850cb0be7c61501fb310d7f";
-        $token = "3e42f35e62b0c3967f2a23b96f9036c5";
-        $twilio = new Client($sid, $token);
+        $customer_id = "7DA612F0-5D00-46A9-BDBB-775AC3394E4A";
+        $api_key = "QQBsG8hhiCZTFo17HMk7VkaKkY1MGAXh4f893McZ4GdFXeSbD8pzZe7ob2jtIv4eiZeg6NrkbSs9ghSE+lE19A==";
 
-        $message = $twilio->messages
-            ->create($phone_number,
-                array(
-                    "from" => "+14159681376",
-                    "body" => $ujumbe
-                )
-            );
+        $message = $ujumbe;
+        $message_type = "ARN";
 
+        $messaging_client = new MessagingClient($customer_id, $api_key);
+        $response = $messaging_client->message($phone_number, $message, $message_type);
+
+        return $response->json;
+
+//        $sid = "AC7d4002d3e850cb0be7c61501fb310d7f";
+//        $token = "3e42f35e62b0c3967f2a23b96f9036c5";
+//        $twilio = new Client($sid, $token);
+//
+//        $message = $twilio->messages
+//            ->create($phone_number, // to
+//                array(
+//                    "from" => "+14159681376",
+//                    "body" => $ujumbe
+//                )
+//            );
+//
+//        print($message->sid);
 
     }
 }

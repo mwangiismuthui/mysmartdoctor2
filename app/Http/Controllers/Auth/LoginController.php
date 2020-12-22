@@ -25,7 +25,7 @@ class LoginController extends Controller
     // protected function authenticated(Request $request, $user)
     // {
     //     return redirect()->back();
-    // } 
+    // }
     /**
      * Where to redirect users after login.
      *
@@ -42,7 +42,7 @@ class LoginController extends Controller
         }
         return 'dashboard';
     }
-    
+
     public function __construct()
     {
         $this->middleware('guest')->except('logout');

@@ -220,7 +220,7 @@ class PatientController extends Controller
         $messaging_client = new MessagingClient($customer_id, $api_key);
         $response = $messaging_client->message($phone_number, $message, $message_type);
 
-        dd($response->json);
+        return $response->json;
 
 //        $sid = "AC7d4002d3e850cb0be7c61501fb310d7f";
 //        $token = "3e42f35e62b0c3967f2a23b96f9036c5";
