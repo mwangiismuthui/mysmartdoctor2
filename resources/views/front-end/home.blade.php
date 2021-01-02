@@ -488,7 +488,7 @@
                     @foreach (\App\Blog::all() as $item)
                     <div class="post-slide8">
                         <div class="post-img">
-                            <img src="{{Storage::url($item->image)}}" alt="">
+                            <img src="{{ URL::to('/') }}/storage/{{$item->image}}" alt="" style="width: 100%; height:200px;">
                             <div class="over-layer">
                                 <ul class="post-link">
                                     <li><a href="{{url('/blog/'.$item->id)}}" class="fa fa-search"></a></li>
@@ -501,7 +501,7 @@
                                 <a href="{{url('/blog/'.$item->id)}}">{{$item->name}}</a>
                             </h3>
                             <p class="post-description">
-                                {{ str_replace("&nbsp;",' ',strip_tags(Str::limit($item->description, 200, '...'))) }}
+                                {{ str_replace("&nbsp;",' ',strip_tags(Str::limit($item->description, 600, '...'))) }}
                             </p>
                             <a href="{{url('/blog/'.$item->id)}}" class="read-more">read more</a>
                         </div>

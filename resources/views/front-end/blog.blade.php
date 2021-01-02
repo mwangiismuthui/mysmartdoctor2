@@ -23,7 +23,7 @@
                 </div>
             </nav>
             <div class="content mt-2" style="line-height: 24px;">
-                <img src="{{Storage::url($blog->image)}}" class="m-4" alt="">
+                {{-- <img src="{{Storage::url($blog->image)}}" class="m-4" alt=""> --}}
                 {!!$blog->description!!}
             </div>
         </div>
